@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-@app.route("/")
+@app.get("/")
 def Home():
     return "Hello World"
 
